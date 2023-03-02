@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>drum-machine</title>
   </head>
   <body>
     <div id="drum-machine">
@@ -90,7 +90,24 @@
         </div>
       </div>
 
-      <div id="display">display</div>
+      <div class="controls-container">
+        <div class="btn-containter">
+          Power
+          <div id="power" class="btn">
+            <div class="btn-stick"></div>
+          </div>
+        </div>
+        <div id="display">Display</div>
+        <div class="volume-slider">
+          <input max="1" min="0" step="0.01" class="range" type="range" />
+        </div>
+        <div class="btn-containter">
+          Bank
+          <div id="bank" class="btn btn-off">
+            <div class="btn-stick"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
