@@ -122,3 +122,11 @@ body {
   background: #0032bb;
   box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.6);
 }
+
+a,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: red;
+  cursor: pointer;
+}
